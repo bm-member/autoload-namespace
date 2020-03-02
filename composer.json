@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "classmap": [
+            "classmap/Boy.php",
+            "classmap/Girl.php",
+            "classmap/Dog.php"
+        ],
+        "psr-4": {
+            "PSR4\\": "psr4/"
+        },
+        "files": [
+            "file_autoload/date.php",
+            "file_autoload/math.php"
+        ]
+    }
+}
